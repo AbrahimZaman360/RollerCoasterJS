@@ -1,0 +1,26 @@
+{
+  "name": "rollercoasterjs",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "a new js framework, that is just for fun",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js create@rcoasterjs two --typescript",
+    "test": "vitest --ui src/scripts/test.test.js"
+  },
+  "keywords": [
+    "js",
+    "ts"
+  ],
+  "author": "Ibrahim Zaman <abrahimzaman3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.19.8",
+    "vitest": "^0.34.6"
+  }
+}
